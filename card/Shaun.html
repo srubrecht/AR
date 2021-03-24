@@ -22,13 +22,21 @@
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/srubrecht/AR/main/card/models/ShaunGears1.gltf"></a-asset-item>
         </a-assets>
        
-        <a-marker type="pattern" preset="custom" url="https://raw.githubusercontent.com/srubrecht/AR/main/card/pattern-cact.patt" >    
+       <!-- <a-marker type="pattern" preset="custom" url="https://raw.githubusercontent.com/srubrecht/AR/main/card/pattern-cact.patt" >    
             <a-entity
                 animation-mixer
                 gltf-model="#animated-asset"
                 scale=".5 .5 .5">
             </a-entity>
-        </a-marker>
+        </a-marker> -->
+            
+        <a-anchor smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5" type="pattern" preset="custom" url="https://raw.githubusercontent.com/srubrecht/AR/main/card/pattern-cact.patt">
+            <a-entity
+                animation-mixer
+                gltf-model="#animated-asset"
+                scale=".5 .5 .5">
+            </a-entity>
+        </a-anchor>    
 
         <a-entity camera></a-entity>
         </a-scene>
