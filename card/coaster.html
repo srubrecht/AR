@@ -19,24 +19,22 @@
         <a-scene embedded vr-mode-ui="enabled: false" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 8x8;">
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/srubrecht/AR/main/card/models/gears8.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/srubrecht/AR/main/card/models/goblet.gltf"></a-asset-item>
         </a-assets>
        
         <a-marker type="pattern" preset="custom" url="https://raw.githubusercontent.com/srubrecht/AR/main/card/pattern-cact.patt" smooth="true" smoothCount="10" >    
             <a-entity
                 animation-mixer
                 gltf-model="#animated-asset"
-                scale=".5 .5 .5">
+                scale=" 4 4 4">
             </a-entity>
         </a-marker>
 
         <a-entity camera></a-entity>
         </a-scene>
         
-        <div class="fixed"> <a href="https://raw.githubusercontent.com/srubrecht/AR/main/card/Vcard/Shaun.vcf"> 
+        <div class="fixed"> <a href="https://www.facebook.com/TheKiwiBangkok/"> 
             <img src="https://raw.githubusercontent.com/srubrecht/AR/main/card/buttons/download.png" alt="Download vCard" style="width:65px;height:65px;"> </a> </div>
-        <div class="fixed2"> <a href="https://www.linkedin.com/in/shaunrubrecht" target="_blank"> 
-            <img src="https://raw.githubusercontent.com/srubrecht/AR/main/card/buttons/linkedin.png" alt="View LinkedIn" style="width:65px;height:65px;"> </a> </div>
         <div class="fixed3"> <a href="https://www.cacktis.com" target="_blank"> 
             <img src="https://raw.githubusercontent.com/srubrecht/AR/main/card/buttons/CacktisLink.png" alt="Cacktis" style="width:150px;height:18px;"> </a> </div>
             
