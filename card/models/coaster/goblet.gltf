@@ -915,7 +915,7 @@
         {
             "mimeType" : "image/png",
             "name" : "LogoSticker",
-            "uri" : "https://cacktis.com/wp-content/uploads/2021/04/LogoSticker.png"
+            "uri" : "LogoSticker.png"
         }
     ],
     "accessors" : [
